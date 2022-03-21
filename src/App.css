@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  background-color: rgb(56, 84, 108);
+  color: aliceblue;
+  text-align: center;
+  border-radius: 12px;
+}
+input {
+  margin-bottom: 15px;
+  height: 30px;
+  text-indent: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: block;
+}
+
+/* textarea {
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: block;
+} */
+ul > li {
+  list-style: none;
+  background-color: cadetblue;
+}
+.contactform {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(10, 57, 81);
+  border-radius: 17px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.todo-List-Item {
+  width: 100%;
+  margin-left: -10px;
+}
+ul {
+  max-width: auto;
+}
+ul > li > h2 {
+  font-size: 15px;
+
+  overflow-wrap: break-word;
+}
